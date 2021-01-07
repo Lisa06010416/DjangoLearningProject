@@ -1,0 +1,9 @@
+image: python:3
+
+stages:
+  - echo_test
+
+echo:
+  stage: echo_test
+  script:
+    - echo "Test success~~~"
